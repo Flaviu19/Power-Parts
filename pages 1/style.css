@@ -1,0 +1,149 @@
+
+   body { background: white;
+          color: grey;
+          font-family:  Helvetica Neue, Arial, Helvetica, sans-serif;
+          margin:0 px;
+          padding:0px;
+          
+           }
+
+      
+    header {
+        background-color: rgb(14, 13, 13);
+        background-image: url("../image/KTMHusaction2lowres.jpg");
+        background-size: 100%;
+        background-position: center;
+        height:300px;
+        padding: 50px;
+        text-align: center;
+       
+     }
+    
+           
+             
+    header a {
+        color:white;
+        text-decoration: none;
+        text-transform:uppercase ;
+        margin-top: 40px;
+        }
+
+        header  .mobile {
+            display: none;
+
+        }
+    header .logo a {
+        background-image: url("../image/Enduro\ Xtreme.png") ;
+        background-size: 300px;
+        background-repeat: no-repeat;
+        display: inline-block ;
+        height: 150px ;
+        position: relative;
+        text-indent: -9999999px;
+        top: -35px;
+        width: 300px;
+        
+    }
+    nav ul {
+        margin: 0;
+        padding: 0;
+        list-style-type: none;
+        }
+     nav li{
+        display: inline-block;
+       margin-right: 20px;
+    }
+        
+      /* responsive rulz */
+      @media screen and ( max-width: 715px){
+          header {height: 200px;
+            background-position: 0 -40 ;
+        }
+             header  .mobile {
+                 display: inline-block;
+             }
+             header  .desktop{
+                 display: none;
+             }
+         }
+        
+         @media screen and ( max-width: 500px){
+            Header{
+                height: 200px;
+                background-position: 0 0 px;
+
+            }
+
+         }
+      
+       
+            
+            
+
+      /* features */ 
+    
+
+     .features {
+         background:white ;
+        color: grey;
+         padding: 20px; 
+        display: flex;
+        flex-direction: row ;
+        flex-wrap: wrap;
+       }
+
+     .features figure { 
+        
+        margin: auto ;
+        padding: 5px;
+        text-align: center;
+        text-transform: uppercase;
+        width: 200px ;
+        }
+
+     .features figure img{
+         border: 1px solid white;
+        border-radius: 10%;
+        box-shadow: black 0px 0 px 10px ;
+        width: 200px; 
+                          }
+
+        /* Responsive Ruls  
+       
+        @media screen and (max-width: 715px) {
+           .features {
+               display: block;
+
+
+           }
+
+        }*/
+        
+        
+        /* Footer */
+    
+     
+      footer{
+        background-color:orangered;
+        color: black;
+        font-size: 10px;
+        padding: 20px 20px;
+        text-align: center;
+             }
+
+         
+        
+     
+  
+      
+   
+ 
+  
+
+
+ 
+    
+     
+ 
+
+ 
